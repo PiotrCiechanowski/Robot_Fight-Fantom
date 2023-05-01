@@ -12,4 +12,4 @@ Project is created with:
 ## Setup
 To run this project, install arduino ide to upload code to arduino nano.
 
-
+![tekst alternatywny](pictures/schematic.png)
