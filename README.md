@@ -4,3 +4,11 @@
  I used arduino nano, to control robot. There is two motors 12v and two motor control BTS7960 43A. All this thinks are on the electronic schematic.
  - Weight: 4.9kg; 
  - Dimensions: 32.5cm x 32.5cm x 9.3cm
+	
+## Technologies
+Project is created with:
+* C/C++
+ 
+## Setup
+To run this project, install arduino ide to upload code to arduino nano.
+
