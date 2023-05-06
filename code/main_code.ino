@@ -78,7 +78,7 @@ if((ch1>900)&&(ch1<1000))
 else if((ch1>1500)&&(ch1<7000))
 {
   digitalWrite(M1A,LOW);
-  analogWrite(M1B, 150);
+  analogWrite(M1B, 150); // power of motor A, to drive forward
 }
 
 else
@@ -111,14 +111,13 @@ else
 }
 void motor_B()
 {
-  //if((ch3>1700)&&(ch3<7000))
   if((ch3>2000)&&(ch3<5000))
 {
     
   digitalWrite(M2A,LOW);
-  analogWrite(M2B,150);
+  analogWrite(M2B,150); // power of motor B, to drive forward
 }
-//else if((ch3>9000)&&(ch3<13000))
+
 else 
 {
   digitalWrite(M2A,LOW);
@@ -129,14 +128,12 @@ else
 
 void motor_B1()
 {
-  //if((ch3>1700)&&(ch3<7000))
   if((ch3>2000)&&(ch3<5000))
 {
     
   digitalWrite(M2A,HIGH);
   digitalWrite(M2B,LOW);
 }
-//else if((ch3>9000)&&(ch3<13000))
 else 
 {
   digitalWrite(M2A,LOW);
